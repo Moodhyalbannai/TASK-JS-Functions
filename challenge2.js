@@ -65,10 +65,12 @@ oddsSmallerThan(7);
 function squareOrDouble(n) {
   // Your code here
   if(isOdd(n)){
-    return n*n;
+    console.log(n*n);
   }else{
-    return n*2
+    console.log(n*2);
   }
   }
 
-squareOrDouble(5);
+squareOrDouble(16);
+squareOrDouble(9);
+
